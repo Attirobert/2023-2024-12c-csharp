@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Kor
 {
-    class KorClass
+    public class KorClass
     {
         // Rendszerváltozók
         private double sugar,
@@ -16,9 +16,9 @@ namespace Kor
         // Konstruktor
         public KorClass(double r) { this.sugar = r; }
 
-        public void setKerulet(double r)
+        public void setKerulet()
         {
-            this.kerulet = 2 * r * Math.PI;
+            this.kerulet = 2 * this.sugar * Math.PI;
         }
 
         public void setTerulet()
