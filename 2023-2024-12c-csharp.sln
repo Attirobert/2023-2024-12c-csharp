@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teszt2", "Teszt2\Teszt2.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kor", "Kor\Kor.csproj", "{B8B9BA9D-4917-4F7B-804A-E4278357E923}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KorUnitTest", "KorUnitTest\KorUnitTest.csproj", "{AC6A66E9-EBD2-4E75-98DB-E8A26CCD0030}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KorUnitTest2", "KorUnitTest2\KorUnitTest2.csproj", "{B1784610-1D3A-48D3-ACCB-7A9E168DB6EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{B8B9BA9D-4917-4F7B-804A-E4278357E923}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8B9BA9D-4917-4F7B-804A-E4278357E923}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8B9BA9D-4917-4F7B-804A-E4278357E923}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AC6A66E9-EBD2-4E75-98DB-E8A26CCD0030}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AC6A66E9-EBD2-4E75-98DB-E8A26CCD0030}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AC6A66E9-EBD2-4E75-98DB-E8A26CCD0030}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AC6A66E9-EBD2-4E75-98DB-E8A26CCD0030}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1784610-1D3A-48D3-ACCB-7A9E168DB6EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1784610-1D3A-48D3-ACCB-7A9E168DB6EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1784610-1D3A-48D3-ACCB-7A9E168DB6EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1784610-1D3A-48D3-ACCB-7A9E168DB6EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
