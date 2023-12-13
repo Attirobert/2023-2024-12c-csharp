@@ -38,5 +38,10 @@ namespace Kor
 
         public double getSugar() { return this.sugar; }
 
+        public void writeSugar()
+        {
+            Console.WriteLine($"A kör sugara: {this.sugar}");
+        }
+
     }
 }

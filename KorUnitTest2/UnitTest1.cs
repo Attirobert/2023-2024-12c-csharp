@@ -37,5 +37,24 @@ namespace KorUnitTest2
             // Assert - Ellenőrzés
             Assert.AreEqual(kapottEredm, vartEredm);
         }
+
+        [TestMethod]
+        public void KiiratasTest()
+        {
+            // Arrange
+            string vartEredm = "A kör sugara: 3.0",
+                kapottEredm = string.Empty;
+
+            // Act
+            using (var sw = new StringWriter())
+            {
+                Console.SetOut(sw);
+                kr.writeSugar();
+                kapottEredm = sw.ToString().Trim();
+            }
+
+            // Assert
+            Assert.AreEqual(vartEredm, kapottEredm);
+        }
     }
 }
