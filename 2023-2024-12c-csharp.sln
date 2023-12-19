@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kor", "Kor\Kor.csproj", "{B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KorUnitTest2", "KorUnitTest2\KorUnitTest2.csproj", "{B1784610-1D3A-48D3-ACCB-7A9E168DB6EF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Negyzet", "Negyzet\Negyzet.csproj", "{E76CBBD8-5362-4E2F-A70E-E41118DD4D96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NegyzetTests", "NegyzetTests\NegyzetTests.csproj", "{C1516A27-C047-45C0-9C8B-11FB62EF9B74}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{B1784610-1D3A-48D3-ACCB-7A9E168DB6EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1784610-1D3A-48D3-ACCB-7A9E168DB6EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1784610-1D3A-48D3-ACCB-7A9E168DB6EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E76CBBD8-5362-4E2F-A70E-E41118DD4D96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E76CBBD8-5362-4E2F-A70E-E41118DD4D96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E76CBBD8-5362-4E2F-A70E-E41118DD4D96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E76CBBD8-5362-4E2F-A70E-E41118DD4D96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1516A27-C047-45C0-9C8B-11FB62EF9B74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1516A27-C047-45C0-9C8B-11FB62EF9B74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1516A27-C047-45C0-9C8B-11FB62EF9B74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1516A27-C047-45C0-9C8B-11FB62EF9B74}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
